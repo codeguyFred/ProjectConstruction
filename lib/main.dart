@@ -80,11 +80,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      localeResolutionCallback:
+      /*localeResolutionCallback:
           (Locale locale, Iterable<Locale> supportedLocales) {
         //print("change language");
         return locale;
-      },
+      },*/
       navigatorKey: Application.globalKey,
 
       /// 这个routes 不能写  如果写了的话 就不能传递参数
